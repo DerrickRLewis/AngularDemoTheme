@@ -432,7 +432,7 @@ section {
 .play-icon:before {
     font-family: 'fontawesome';
     content: '\f144';
-    speak-as: none;
+    speak: none;
     font-size: 74px;
     line-height: 110px;
     font-style: normal;
