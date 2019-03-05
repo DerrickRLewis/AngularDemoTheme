@@ -7,6 +7,12 @@ import { IntroComponent } from './intro/intro.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContentComponent } from './content/content.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
+import { FooterComponent } from './footer/footer.component';
+import { ClientsComponent } from './clients/clients.component';
+import { PricingComponent } from './pricing/pricing.component';
+import { HeaderComponent } from './header/header.component';
+import { SocialComponent } from './social/social.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +20,13 @@ import { TestimonialComponent } from './testimonial/testimonial.component';
     IntroComponent,
     GalleryComponent,
     ContentComponent,
-    TestimonialComponent
+    TestimonialComponent,
+    FooterComponent,
+    ClientsComponent,
+    PricingComponent,
+    HeaderComponent,
+    SocialComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
